@@ -1,0 +1,224 @@
+body {
+    background: url(stars.gif);
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    margin: 8px;
+}
+
+
+.form-control {
+
+
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    padding: 15px;
+    margin: 35px;
+    width: 100%;
+    height: 400%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Vbtn {
+    width: 139px;
+    height: 48px;
+    background-color: rgb(152, 226, 236);
+    
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.Vbtn:hover{
+    background-color:rgb(118, 176, 184) ;
+}
+
+
+.keyword1 {
+    background: url("sky-clouds-gif.gif") center/cover;
+    color: #fff;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+
+
+}
+
+.keyword2 {
+    background: url("fire-gif.gif") center/cover;
+    color: #ffcccb;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+.keyword3 {
+    background: url('oceangif.gif') center/cover;
+    color: #cce7ff;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+.keyword4 {
+    background: url('forest.gif') center/cover;
+    color: #eaffea;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+.mystery {
+    background: url("defaultgif.gif") center/cover;
+    color: #fff;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+.default {
+    background: #333;
+    opacity: 0.5;
+    color: #fff;
+    margin: 15px;
+    border: 2px #333;
+    background-color: #333;
+    height: 330px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 12px;
+    padding: 40px;
+    font-size: 22px;
+    transition: all 0.6s ease-in-out;
+}
+
+
+.container.btn {
+    background-color: rgb(211, 29, 187);
+}
+
+.content {
+    display: flex;
+    padding-left: 25px;
+    gap: 10px;
+    margin: 15px;
+
+
+}
+
+/* .dropdown-menu.show {
+    opacity: 0.3;
+} */
+
+.btn-Aqua {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23,86,97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Aries {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Capricorn {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Cancer {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Gemini {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Leo {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg:rgb(11, 40, 45) ;
+}
+
+.btn-Libra {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Pisces {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Sagittarius {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Scorpio {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Taurus {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
+
+.btn-Virgo {
+    --bs-btn-color: #100e10;
+    --bs-btn-bg: rgb(23, 86, 97);
+    --bs-btn-hover-bg: rgb(11, 40, 45);
+}
