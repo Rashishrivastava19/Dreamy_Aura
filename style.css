@@ -9,11 +9,13 @@ body {
     text-align: center;
     margin: 8px;
 }
-
+.container{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
 
 .form-control {
-
-
     background: rgba(0, 0, 0, 0.5);
     /* Black background with 0.5 opacity */
     color: #f1f1f1;
@@ -28,8 +30,7 @@ body {
 .Vbtn {
     width: 139px;
     height: 48px;
-    background-color: rgb(152, 226, 236);
-    
+    background-color: rgb(152, 226, 236); 
     color: black;
     font-size: 20px;
     border-radius: 20px;
@@ -134,91 +135,25 @@ body {
 }
 
 
-.container.btn {
-    background-color: rgb(211, 29, 187);
-}
 
 .content {
+   margin: 8px;
     display: flex;
     padding-left: 25px;
     gap: 10px;
     margin: 15px;
-
-
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* .dropdown-menu.show {
     opacity: 0.3;
 } */
 
-.btn-Aqua {
+.btn{
+    padding: 10px 20px;
     --bs-btn-color: #100e10;
     --bs-btn-bg: rgb(23,86,97);
     --bs-btn-hover-bg: rgb(11, 40, 45);
 }
 
-.btn-Aries {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Capricorn {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Cancer {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Gemini {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Leo {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg:rgb(11, 40, 45) ;
-}
-
-.btn-Libra {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Pisces {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Sagittarius {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Scorpio {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Taurus {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
-
-.btn-Virgo {
-    --bs-btn-color: #100e10;
-    --bs-btn-bg: rgb(23, 86, 97);
-    --bs-btn-hover-bg: rgb(11, 40, 45);
-}
