@@ -1,5 +1,5 @@
 body {
-    background: url(stars.gif)no-repeat center center fixed;
+    background: url("stars.gif")no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -157,5 +157,6 @@ body {
     --bs-btn-bg: rgb(23,86,97);
     --bs-btn-hover-bg: rgb(11, 40, 45);
 }
+
 
 
